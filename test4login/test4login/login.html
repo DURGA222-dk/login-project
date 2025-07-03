@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+    <div class="box">
+        <div class="login">
+            <div class="loginbx">
+                <h2>
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    Login 
+                    <i class="fa-solid fa-heart"></i>
+                </h2>
+                    
+                    <input type="text" class="form-control" placeholder="username" id="username" required>
+                    
+                    <input type="password" class="form-control" placeholder="password" id="password" required>
+                    <button type="button" class="btn btn-primary" onclick="login_logic()">Login</button>
+                    <div class="group">
+                        <a href="#">Forget Password</a>
+                        <a href="#">Sign up</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+</html>
